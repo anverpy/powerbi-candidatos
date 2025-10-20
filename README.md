@@ -2,7 +2,7 @@
 
 > Dashboard interactivo profesional para análisis avanzado de candidatos y optimización de tasas de colocación
 
-![Dashboard Preview](1.png)
+![Dashboard Preview](assets/1.png)
 
 ## � **[VER DASHBOARD EN VIVO](https://anverpy.github.io/powerbi-candidatos/dashboard.html)** 
 *👆 Haz clic para acceder al dashboard interactivo desde cualquier navegador*
