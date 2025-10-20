@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Candidatos - Análisis Interactivo</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+            min-height: 100vh;
+        }
+        
+        .header {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .header h1 {
+            color: #2c3e50;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            color: #7f8c8d;
+            font-size: 1.2em;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .kpi-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .kpi-card {
+            background: white;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        
+        .kpi-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .kpi-value {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #3498db;
+            margin: 10px 0;
+        }
+        
+        .kpi-label {
+            color: #7f8c8d;
+            font-size: 1.1em;
+        }
+        
+        .chart-container {
+            background: white;
+            margin: 20px 0;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .chart-title {
+            font-size: 1.5em;
+            color: #2c3e50;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        .filters {
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .filter-group {
+            display: inline-block;
+            margin: 10px;
+        }
+        
+        .filter-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        
+        .filter-group select {
+            padding: 10px;
+            border: 2px solid #ecf0f1;
+            border-radius: 8px;
+            font-size: 14px;
+            min-width: 150px;
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 20px;
+            color: rgba(255,255,255,0.8);
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>📊 Dashboard de Candidatos</h1>
+        <p>Análisis interactivo de datos de reclutamiento</p>
+    </div>
+    
+    <div class="container">
+        <!-- Filtros -->
+        <div class="filters">
+            <h3>🔍 Filtros Interactivos</h3>
+            <div class="filter-group">
+                <label for="techFilter">Tecnología:</label>
+                <select id="techFilter">
+                    <option value="all">Todas</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="consultorFilter">Consultor:</label>
+                <select id="consultorFilter">
+                    <option value="all">Todos</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="nivelFilter">Nivel:</label>
+                <select id="nivelFilter">
+                    <option value="all">Todos</option>
+                </select>
+            </div>
+        </div>
+        
+        <!-- KPIs -->
+        <div class="kpi-grid">
+            <div class="kpi-card">
+                <div class="kpi-value" id="totalCandidatos">-</div>
+                <div class="kpi-label">👥 Total Candidatos</div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-value" id="tasaColocacion">-</div>
+                <div class="kpi-label">🎯 Tasa Colocación</div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-value" id="tiempoPromedio">-</div>
+                <div class="kpi-label">⏱️ Días Promedio</div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-value" id="enEspera">-</div>
+                <div class="kpi-label">⏳ En Espera</div>
+            </div>
+        </div>
+        
+        <!-- Gráficos -->
+        <div class="chart-container">
+            <div class="chart-title">📈 Colocaciones por Mes</div>
+            <div id="timeChart" style="height: 400px;"></div>
+        </div>
+        
+        <div class="chart-container">
+            <div class="chart-title">💻 Distribución por Tecnología</div>
+            <div id="techChart" style="height: 400px;"></div>
+        </div>
+        
+        <div class="chart-container">
+            <div class="chart-title">👨‍💼 Performance por Consultor</div>
+            <div id="consultorChart" style="height: 400px;"></div>
+        </div>
+        
+        <div class="chart-container">
+            <div class="chart-title">🌐 Fuentes de Reclutamiento</div>
+            <div id="fuenteChart" style="height: 400px;"></div>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <p>🚀 Dashboard generado con datos sintéticos | Desarrollado para análisis de reclutamiento</p>
+    </div>
+    
+    <script>
+        let rawData = [];
+        let filteredData = [];
+        
+        // Cargar datos CSV
+        Papa.parse('./candidatos.csv', {
+            download: true,
+            header: true,
+            complete: function(results) {
+                rawData = results.data;
+                filteredData = rawData;
+                initializeFilters();
+                updateDashboard();
+            }
+        });
+        
+        function initializeFilters() {
+            // Poblar filtros
+            const tecnologias = [...new Set(rawData.map(row => row.Tecnologia))];
+            const consultores = [...new Set(rawData.map(row => row.Consultor))];
+            const niveles = [...new Set(rawData.map(row => row.Nivel))];
+            
+            populateSelect('techFilter', tecnologias);
+            populateSelect('consultorFilter', consultores);
+            populateSelect('nivelFilter', niveles);
+            
+            // Event listeners
+            document.getElementById('techFilter').addEventListener('change', applyFilters);
+            document.getElementById('consultorFilter').addEventListener('change', applyFilters);
+            document.getElementById('nivelFilter').addEventListener('change', applyFilters);
+        }
+        
+        function populateSelect(selectId, options) {
+            const select = document.getElementById(selectId);
+            options.forEach(option => {
+                if (option) {
+                    const optionElement = document.createElement('option');
+                    optionElement.value = option;
+                    optionElement.textContent = option;
+                    select.appendChild(optionElement);
+                }
+            });
+        }
+        
+        function applyFilters() {
+            const techFilter = document.getElementById('techFilter').value;
+            const consultorFilter = document.getElementById('consultorFilter').value;
+            const nivelFilter = document.getElementById('nivelFilter').value;
+            
+            filteredData = rawData.filter(row => {
+                return (techFilter === 'all' || row.Tecnologia === techFilter) &&
+                       (consultorFilter === 'all' || row.Consultor === consultorFilter) &&
+                       (nivelFilter === 'all' || row.Nivel === nivelFilter);
+            });
+            
+            updateDashboard();
+        }
+        
+        function updateDashboard() {
+            updateKPIs();
+            updateTimeChart();
+            updateTechChart();
+            updateConsultorChart();
+            updateFuenteChart();
+        }
+        
+        function updateKPIs() {
+            const total = filteredData.length;
+            const colocados = filteredData.filter(row => row.Estado === 'Colocado').length;
+            const enEspera = filteredData.filter(row => row.Estado === 'En espera').length;
+            const tasaColocacion = total > 0 ? (colocados / total * 100).toFixed(1) : 0;
+            
+            // Calcular tiempo promedio
+            const colocadosConFecha = filteredData.filter(row => 
+                row.Estado === 'Colocado' && row.Fecha_Colocacion && row.Fecha_CV_Recibido
+            );
+            
+            let tiempoPromedio = 0;
+            if (colocadosConFecha.length > 0) {
+                const tiempos = colocadosConFecha.map(row => {
+                    const fechaCV = new Date(row.Fecha_CV_Recibido);
+                    const fechaColocacion = new Date(row.Fecha_Colocacion);
+                    return (fechaColocacion - fechaCV) / (1000 * 60 * 60 * 24);
+                });
+                tiempoPromedio = (tiempos.reduce((a, b) => a + b, 0) / tiempos.length).toFixed(1);
+            }
+            
+            document.getElementById('totalCandidatos').textContent = total;
+            document.getElementById('tasaColocacion').textContent = tasaColocacion + '%';
+            document.getElementById('tiempoPromedio').textContent = tiempoPromedio;
+            document.getElementById('enEspera').textContent = enEspera;
+        }
+        
+        function updateTimeChart() {
+            const monthlyData = {};
+            
+            filteredData.forEach(row => {
+                if (row.Fecha_CV_Recibido) {
+                    const date = new Date(row.Fecha_CV_Recibido);
+                    const monthKey = `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}`;
+                    
+                    if (!monthlyData[monthKey]) {
+                        monthlyData[monthKey] = { total: 0, colocados: 0 };
+                    }
+                    
+                    monthlyData[monthKey].total++;
+                    if (row.Estado === 'Colocado') {
+                        monthlyData[monthKey].colocados++;
+                    }
+                }
+            });
+            
+            const months = Object.keys(monthlyData).sort();
+            const totalTrace = {
+                x: months,
+                y: months.map(month => monthlyData[month].total),
+                type: 'bar',
+                name: 'Total CVs',
+                marker: { color: '#3498db' }
+            };
+            
+            const colocadosTrace = {
+                x: months,
+                y: months.map(month => monthlyData[month].colocados),
+                type: 'bar',
+                name: 'Colocados',
+                marker: { color: '#2ecc71' }
+            };
+            
+            Plotly.newPlot('timeChart', [totalTrace, colocadosTrace], {
+                title: false,
+                xaxis: { title: 'Mes' },
+                yaxis: { title: 'Cantidad' },
+                barmode: 'group'
+            });
+        }
+        
+        function updateTechChart() {
+            const techData = {};
+            
+            filteredData.forEach(row => {
+                if (!techData[row.Tecnologia]) {
+                    techData[row.Tecnologia] = { total: 0, colocados: 0 };
+                }
+                techData[row.Tecnologia].total++;
+                if (row.Estado === 'Colocado') {
+                    techData[row.Tecnologia].colocados++;
+                }
+            });
+            
+            const labels = Object.keys(techData);
+            const values = labels.map(tech => techData[tech].total);
+            
+            Plotly.newPlot('techChart', [{
+                labels: labels,
+                values: values,
+                type: 'pie',
+                textinfo: 'label+percent',
+                marker: {
+                    colors: ['#3498db', '#e74c3c', '#2ecc71', '#f39c12', '#9b59b6', '#1abc9c', '#34495e']
+                }
+            }], {
+                title: false
+            });
+        }
+        
+        function updateConsultorChart() {
+            const consultorData = {};
+            
+            filteredData.forEach(row => {
+                if (!consultorData[row.Consultor]) {
+                    consultorData[row.Consultor] = { total: 0, colocados: 0 };
+                }
+                consultorData[row.Consultor].total++;
+                if (row.Estado === 'Colocado') {
+                    consultorData[row.Consultor].colocados++;
+                }
+            });
+            
+            const consultores = Object.keys(consultorData);
+            const tasas = consultores.map(consultor => 
+                consultorData[consultor].total > 0 
+                    ? (consultorData[consultor].colocados / consultorData[consultor].total * 100)
+                    : 0
+            );
+            
+            Plotly.newPlot('consultorChart', [{
+                x: consultores,
+                y: tasas,
+                type: 'bar',
+                marker: { color: '#e74c3c' }
+            }], {
+                title: false,
+                xaxis: { title: 'Consultor' },
+                yaxis: { title: 'Tasa Colocación (%)' }
+            });
+        }
+        
+        function updateFuenteChart() {
+            const fuenteData = {};
+            
+            filteredData.forEach(row => {
+                if (!fuenteData[row.Fuente]) {
+                    fuenteData[row.Fuente] = 0;
+                }
+                fuenteData[row.Fuente]++;
+            });
+            
+            const fuentes = Object.keys(fuenteData);
+            const valores = fuentes.map(fuente => fuenteData[fuente]);
+            
+            Plotly.newPlot('fuenteChart', [{
+                x: fuentes,
+                y: valores,
+                type: 'bar',
+                marker: { color: '#9b59b6' }
+            }], {
+                title: false,
+                xaxis: { title: 'Fuente' },
+                yaxis: { title: 'Cantidad de Candidatos' }
+            });
+        }
+    </script>
+</body>
+</html>
