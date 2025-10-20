@@ -1,0 +1,528 @@
+ID_Candidato,Fecha_CV_Recibido,Fecha_Colocacion,Tecnologia,Nivel,Fuente,Consultor,Estado
+CAND_001,2025-02-01,,Azure,Junior,Portal Empleo,María,En espera
+CAND_002,2025-09-03,,Power BI,Junior,LinkedIn,Luis,En espera
+CAND_003,2025-04-17,2025-05-27,Azure,Senior,Web Corporativa,Luis,Colocado
+CAND_004,2025-08-19,,SQL,Junior,Portal Empleo,Jorge,En espera
+CAND_005,2025-06-09,2025-06-27,SQL,Mid,LinkedIn,María,Colocado
+CAND_006,2025-07-04,,SQL,Mid,Referral,María,En espera
+CAND_007,2025-08-18,2025-09-16,Power BI,Senior,Referral,Ana,Colocado
+CAND_008,2025-04-23,2025-04-30,C#,Junior,Referral,María,Colocado
+CAND_009,2025-04-28,2025-05-27,Java,Mid,Referral,Luis,Colocado
+CAND_010,2025-06-12,2025-07-04,C#,Senior,LinkedIn,Luis,Colocado
+CAND_011,2025-09-24,2025-10-09,Python,Mid,Referral,Luis,Colocado
+CAND_012,2025-06-27,2025-07-16,SQL,Junior,Referral,Jorge,Colocado
+CAND_013,2025-05-03,2025-06-13,C#,Mid,Portal Empleo,Jorge,Colocado
+CAND_014,2025-07-21,,Azure,Mid,Portal Empleo,Luis,En espera
+CAND_015,2025-09-18,,C#,Senior,Web Corporativa,Jorge,En espera
+CAND_016,2025-06-08,2025-07-15,Python,Junior,LinkedIn,María,Colocado
+CAND_017,2025-03-21,2025-04-22,React,Junior,Web Corporativa,Jorge,Colocado
+CAND_018,2025-08-17,,React,Junior,LinkedIn,Ana,En espera
+CAND_019,2025-06-04,,Python,Junior,Web Corporativa,María,En espera
+CAND_020,2025-05-17,2025-06-23,Power BI,Senior,Referral,Luis,Colocado
+CAND_021,2025-03-12,2025-04-20,SQL,Senior,LinkedIn,Ana,Colocado
+CAND_022,2025-08-01,2025-08-29,SQL,Mid,Portal Empleo,María,Colocado
+CAND_023,2025-04-19,2025-04-29,C#,Mid,LinkedIn,Luis,Colocado
+CAND_024,2025-03-22,,React,Junior,Referral,Jorge,En espera
+CAND_025,2025-04-18,2025-05-12,Python,Senior,Referral,Jorge,Colocado
+CAND_026,2025-09-15,2025-10-05,Azure,Junior,Referral,María,Colocado
+CAND_027,2025-09-08,2025-09-13,Power BI,Senior,LinkedIn,Luis,Colocado
+CAND_028,2025-02-02,,Power BI,Senior,Portal Empleo,Ana,En espera
+CAND_029,2025-08-07,2025-09-17,React,Mid,Portal Empleo,Jorge,Colocado
+CAND_030,2025-07-07,2025-07-18,C#,Mid,Referral,Jorge,Colocado
+CAND_031,2025-07-15,2025-07-26,Power BI,Mid,Referral,María,Colocado
+CAND_032,2025-04-07,2025-05-16,Python,Junior,Web Corporativa,Luis,Colocado
+CAND_033,2025-05-15,2025-05-24,Python,Senior,LinkedIn,María,Colocado
+CAND_034,2025-09-27,2025-10-07,SQL,Junior,Portal Empleo,Jorge,Colocado
+CAND_035,2025-08-16,2025-09-15,Power BI,Junior,Web Corporativa,María,Colocado
+CAND_036,2025-07-09,,Java,Mid,Web Corporativa,Luis,En espera
+CAND_037,2025-04-10,2025-04-18,React,Senior,LinkedIn,Ana,Colocado
+CAND_038,2025-01-02,,React,Senior,Portal Empleo,María,En espera
+CAND_039,2025-09-03,2025-09-12,React,Junior,Portal Empleo,Jorge,Colocado
+CAND_040,2025-02-19,2025-04-02,React,Junior,LinkedIn,Jorge,Colocado
+CAND_041,2025-09-11,,Azure,Senior,Referral,Luis,En espera
+CAND_042,2025-05-13,2025-06-06,Python,Mid,LinkedIn,María,Colocado
+CAND_043,2025-08-20,2025-08-29,React,Junior,Referral,Luis,Colocado
+CAND_044,2025-06-03,2025-07-01,Java,Junior,Web Corporativa,Ana,Colocado
+CAND_045,2025-09-01,,C#,Junior,Portal Empleo,Ana,En espera
+CAND_046,2025-02-04,2025-02-26,Java,Senior,Portal Empleo,Ana,Colocado
+CAND_047,2025-04-22,,React,Mid,Referral,María,En espera
+CAND_048,2025-02-21,,SQL,Mid,LinkedIn,María,En espera
+CAND_049,2025-06-25,2025-08-09,Java,Junior,Web Corporativa,Jorge,Colocado
+CAND_050,2025-09-01,2025-09-10,C#,Junior,LinkedIn,Ana,Colocado
+CAND_051,2025-09-05,,Azure,Junior,Referral,Ana,En espera
+CAND_052,2025-01-12,2025-02-01,C#,Junior,Referral,Jorge,Colocado
+CAND_053,2025-03-08,2025-03-24,Python,Junior,Portal Empleo,Ana,Colocado
+CAND_054,2025-07-26,2025-08-17,Azure,Senior,LinkedIn,Jorge,Colocado
+CAND_055,2025-01-28,,Azure,Junior,Web Corporativa,Ana,En espera
+CAND_056,2025-05-27,2025-06-15,Power BI,Senior,Portal Empleo,Jorge,Colocado
+CAND_057,2025-06-09,2025-07-01,Java,Senior,Web Corporativa,Ana,Colocado
+CAND_058,2025-01-04,,Azure,Senior,Referral,María,En espera
+CAND_059,2025-02-20,,Java,Senior,Referral,Jorge,En espera
+CAND_060,2025-09-04,,React,Junior,Referral,María,En espera
+CAND_061,2025-07-01,2025-07-29,Python,Junior,Referral,Ana,Colocado
+CAND_062,2025-02-24,,React,Mid,Web Corporativa,Ana,En espera
+CAND_063,2025-07-23,,React,Junior,Portal Empleo,Jorge,En espera
+CAND_064,2025-07-22,2025-09-04,React,Mid,Web Corporativa,María,Colocado
+CAND_065,2025-05-10,2025-06-11,SQL,Senior,Referral,Jorge,Colocado
+CAND_066,2025-08-15,2025-09-21,Python,Senior,Portal Empleo,María,Colocado
+CAND_067,2025-05-17,,Power BI,Junior,Referral,Luis,En espera
+CAND_068,2025-04-05,2025-04-12,Azure,Mid,LinkedIn,Jorge,Colocado
+CAND_069,2025-07-21,2025-08-19,Python,Mid,Portal Empleo,Luis,Colocado
+CAND_070,2025-01-25,2025-02-26,Azure,Junior,Web Corporativa,María,Colocado
+CAND_071,2025-09-08,2025-10-12,Azure,Mid,Referral,Jorge,Colocado
+CAND_072,2025-09-14,,Azure,Senior,Web Corporativa,Jorge,En espera
+CAND_073,2025-05-25,2025-07-09,Java,Senior,Web Corporativa,Luis,Colocado
+CAND_074,2025-05-15,2025-06-07,Azure,Mid,Referral,Ana,Colocado
+CAND_075,2025-09-03,2025-09-17,Azure,Mid,Portal Empleo,Luis,Colocado
+CAND_076,2025-02-14,,Java,Senior,Web Corporativa,Jorge,En espera
+CAND_077,2025-01-07,,Python,Senior,LinkedIn,Jorge,En espera
+CAND_078,2025-08-01,,Java,Mid,Web Corporativa,Luis,En espera
+CAND_079,2025-08-08,,Python,Mid,LinkedIn,Jorge,En espera
+CAND_080,2025-06-22,,C#,Junior,Web Corporativa,Luis,En espera
+CAND_081,2025-09-01,,React,Senior,LinkedIn,María,En espera
+CAND_082,2025-07-05,,Azure,Junior,Referral,Jorge,En espera
+CAND_083,2025-06-07,,Java,Mid,Web Corporativa,Ana,En espera
+CAND_084,2025-07-09,2025-08-13,Power BI,Senior,LinkedIn,Ana,Colocado
+CAND_085,2025-04-21,2025-04-28,SQL,Junior,Portal Empleo,Luis,Colocado
+CAND_086,2025-01-20,2025-02-09,Azure,Mid,LinkedIn,Luis,Colocado
+CAND_087,2025-08-23,,SQL,Mid,Portal Empleo,María,En espera
+CAND_088,2025-03-10,2025-04-21,Power BI,Mid,Web Corporativa,Jorge,Colocado
+CAND_089,2025-04-03,2025-04-14,C#,Mid,LinkedIn,María,Colocado
+CAND_090,2025-06-18,,C#,Mid,LinkedIn,Ana,En espera
+CAND_091,2025-01-28,,SQL,Mid,LinkedIn,Jorge,En espera
+CAND_092,2025-06-21,,C#,Junior,Web Corporativa,Luis,En espera
+CAND_093,2025-09-21,,React,Senior,Web Corporativa,Jorge,En espera
+CAND_094,2025-07-27,,Java,Junior,LinkedIn,Ana,En espera
+CAND_095,2025-08-08,,React,Senior,Web Corporativa,Ana,En espera
+CAND_096,2025-01-16,,Azure,Mid,Portal Empleo,Ana,En espera
+CAND_097,2025-05-11,,React,Senior,Referral,María,En espera
+CAND_098,2025-09-07,2025-09-27,C#,Mid,Web Corporativa,Luis,Colocado
+CAND_099,2025-08-21,,Python,Junior,LinkedIn,Ana,En espera
+CAND_100,2025-04-13,2025-05-07,C#,Senior,Referral,Jorge,Colocado
+CAND_101,2025-09-17,,Python,Senior,Referral,Ana,En espera
+CAND_102,2025-08-09,,Java,Junior,LinkedIn,Luis,En espera
+CAND_103,2025-06-04,2025-06-21,Azure,Senior,Web Corporativa,Ana,Colocado
+CAND_104,2025-09-20,,Power BI,Junior,Referral,Luis,En espera
+CAND_105,2025-06-06,,Power BI,Senior,Portal Empleo,Ana,En espera
+CAND_106,2025-01-02,,C#,Junior,Web Corporativa,María,En espera
+CAND_107,2025-01-19,,Python,Mid,Web Corporativa,Ana,En espera
+CAND_108,2025-03-02,,SQL,Mid,LinkedIn,María,En espera
+CAND_109,2025-07-16,2025-08-26,C#,Senior,LinkedIn,Luis,Colocado
+CAND_110,2025-03-26,,Power BI,Junior,LinkedIn,Jorge,En espera
+CAND_111,2025-04-25,,Python,Mid,Referral,Jorge,En espera
+CAND_112,2025-05-19,2025-07-02,C#,Junior,Portal Empleo,Luis,Colocado
+CAND_113,2025-05-22,2025-06-06,Azure,Junior,LinkedIn,Luis,Colocado
+CAND_114,2025-01-14,,C#,Senior,Web Corporativa,Ana,En espera
+CAND_115,2025-01-08,,C#,Mid,Web Corporativa,María,En espera
+CAND_116,2025-04-09,2025-05-11,Power BI,Senior,Portal Empleo,Luis,Colocado
+CAND_117,2025-05-27,2025-06-05,Power BI,Junior,Referral,Ana,Colocado
+CAND_118,2025-08-04,,C#,Mid,Web Corporativa,Ana,En espera
+CAND_119,2025-09-18,,Python,Junior,LinkedIn,Jorge,En espera
+CAND_120,2025-06-20,,Power BI,Junior,Portal Empleo,María,En espera
+CAND_121,2025-05-19,2025-06-04,Python,Senior,Web Corporativa,Ana,Colocado
+CAND_122,2025-03-19,,C#,Mid,LinkedIn,Jorge,En espera
+CAND_123,2025-06-14,,Java,Senior,LinkedIn,Luis,En espera
+CAND_124,2025-06-14,,Java,Senior,Web Corporativa,María,En espera
+CAND_125,2025-08-03,,Java,Mid,LinkedIn,Jorge,En espera
+CAND_126,2025-09-27,2025-11-05,Python,Mid,LinkedIn,Luis,Colocado
+CAND_127,2025-09-12,,C#,Mid,LinkedIn,Luis,En espera
+CAND_128,2025-05-18,2025-06-10,Python,Senior,Web Corporativa,María,Colocado
+CAND_129,2025-01-21,2025-02-05,Java,Senior,LinkedIn,Jorge,Colocado
+CAND_130,2025-02-08,2025-03-14,Power BI,Senior,Portal Empleo,Jorge,Colocado
+CAND_131,2025-05-17,,Python,Mid,Web Corporativa,Luis,En espera
+CAND_132,2025-08-18,2025-09-16,Azure,Senior,Portal Empleo,María,Colocado
+CAND_133,2025-05-25,,Java,Senior,Referral,María,En espera
+CAND_134,2025-05-24,,SQL,Senior,Web Corporativa,Luis,En espera
+CAND_135,2025-08-18,,Java,Mid,Web Corporativa,Jorge,En espera
+CAND_136,2025-06-28,2025-07-18,React,Mid,Portal Empleo,Jorge,Colocado
+CAND_137,2025-01-11,,C#,Mid,Web Corporativa,Luis,En espera
+CAND_138,2025-08-02,2025-09-08,React,Mid,LinkedIn,Jorge,Colocado
+CAND_139,2025-02-17,,Power BI,Senior,Portal Empleo,Jorge,En espera
+CAND_140,2025-03-03,,SQL,Mid,Referral,Jorge,En espera
+CAND_141,2025-02-28,,SQL,Senior,Web Corporativa,Ana,En espera
+CAND_142,2025-08-28,2025-10-11,Power BI,Junior,Referral,Luis,Colocado
+CAND_143,2025-02-14,2025-03-31,C#,Junior,Web Corporativa,Luis,Colocado
+CAND_144,2025-05-01,2025-05-26,SQL,Junior,Referral,Ana,Colocado
+CAND_145,2025-06-14,2025-07-04,React,Mid,Portal Empleo,Luis,Colocado
+CAND_146,2025-03-03,,React,Senior,Portal Empleo,Jorge,En espera
+CAND_147,2025-03-08,,C#,Mid,Web Corporativa,Ana,En espera
+CAND_148,2025-01-26,,Java,Senior,Portal Empleo,María,En espera
+CAND_149,2025-08-12,,C#,Mid,Referral,Jorge,En espera
+CAND_150,2025-05-07,,SQL,Mid,LinkedIn,Luis,En espera
+CAND_151,2025-07-19,,React,Mid,Referral,María,En espera
+CAND_152,2025-07-09,2025-08-19,SQL,Senior,LinkedIn,Jorge,Colocado
+CAND_153,2025-05-25,2025-07-07,SQL,Mid,Portal Empleo,Luis,Colocado
+CAND_154,2025-05-22,2025-07-06,Power BI,Senior,LinkedIn,Ana,Colocado
+CAND_155,2025-08-02,,C#,Junior,LinkedIn,Ana,En espera
+CAND_156,2025-06-24,,Azure,Junior,Portal Empleo,Ana,En espera
+CAND_157,2025-09-17,,SQL,Junior,Referral,Jorge,En espera
+CAND_158,2025-05-24,,SQL,Junior,Web Corporativa,María,En espera
+CAND_159,2025-03-25,2025-04-24,SQL,Senior,Referral,María,Colocado
+CAND_160,2025-07-01,,React,Junior,Web Corporativa,Ana,En espera
+CAND_161,2025-05-19,,SQL,Senior,Referral,María,En espera
+CAND_162,2025-04-16,2025-05-30,React,Mid,Portal Empleo,María,Colocado
+CAND_163,2025-08-23,,C#,Mid,LinkedIn,Luis,En espera
+CAND_164,2025-01-02,,Python,Junior,LinkedIn,Luis,En espera
+CAND_165,2025-09-05,,Python,Mid,Web Corporativa,Luis,En espera
+CAND_166,2025-07-21,2025-08-26,React,Mid,Referral,María,Colocado
+CAND_167,2025-06-07,,Python,Junior,Referral,María,En espera
+CAND_168,2025-06-18,,Power BI,Mid,Referral,Luis,En espera
+CAND_169,2025-02-28,,Power BI,Senior,Portal Empleo,María,En espera
+CAND_170,2025-01-26,,Azure,Junior,Portal Empleo,María,En espera
+CAND_171,2025-09-07,2025-09-26,Java,Junior,LinkedIn,Ana,Colocado
+CAND_172,2025-03-05,,SQL,Junior,LinkedIn,María,En espera
+CAND_173,2025-03-01,,SQL,Junior,Referral,María,En espera
+CAND_174,2025-03-09,2025-03-22,C#,Mid,LinkedIn,María,Colocado
+CAND_175,2025-08-15,,React,Senior,LinkedIn,Jorge,En espera
+CAND_176,2025-09-08,2025-10-16,Java,Mid,LinkedIn,María,Colocado
+CAND_177,2025-08-28,,Python,Senior,LinkedIn,Jorge,En espera
+CAND_178,2025-08-03,2025-08-28,React,Junior,LinkedIn,Luis,Colocado
+CAND_179,2025-05-20,,Python,Senior,Referral,Jorge,En espera
+CAND_180,2025-09-20,,Power BI,Senior,LinkedIn,Luis,En espera
+CAND_181,2025-07-15,2025-08-15,Java,Mid,Web Corporativa,Jorge,Colocado
+CAND_182,2025-02-11,,Java,Senior,Referral,Ana,En espera
+CAND_183,2025-03-22,,Power BI,Junior,LinkedIn,María,En espera
+CAND_184,2025-07-04,,SQL,Junior,LinkedIn,Ana,En espera
+CAND_185,2025-02-14,,SQL,Senior,Web Corporativa,María,En espera
+CAND_186,2025-05-20,,Java,Junior,Portal Empleo,Luis,En espera
+CAND_187,2025-08-08,2025-09-04,SQL,Senior,Referral,María,Colocado
+CAND_188,2025-05-19,2025-06-20,SQL,Senior,LinkedIn,Ana,Colocado
+CAND_189,2025-01-06,,C#,Mid,Referral,Ana,En espera
+CAND_190,2025-01-06,2025-02-16,C#,Mid,LinkedIn,Luis,Colocado
+CAND_191,2025-01-03,2025-02-01,Python,Mid,Referral,Luis,Colocado
+CAND_192,2025-06-10,,SQL,Senior,LinkedIn,María,En espera
+CAND_193,2025-03-06,2025-03-16,Java,Mid,Web Corporativa,Jorge,Colocado
+CAND_194,2025-08-14,,Azure,Senior,LinkedIn,Ana,En espera
+CAND_195,2025-07-04,,C#,Senior,Web Corporativa,Ana,En espera
+CAND_196,2025-01-08,,React,Junior,LinkedIn,Luis,En espera
+CAND_197,2025-05-07,2025-05-28,Java,Mid,LinkedIn,María,Colocado
+CAND_198,2025-08-24,,Azure,Junior,Web Corporativa,Luis,En espera
+CAND_199,2025-09-18,,Power BI,Mid,LinkedIn,Jorge,En espera
+CAND_200,2025-01-15,2025-02-09,React,Mid,Web Corporativa,Jorge,Colocado
+CAND_201,2025-05-04,,Power BI,Mid,Portal Empleo,Jorge,En espera
+CAND_202,2025-06-03,,SQL,Junior,Portal Empleo,Jorge,En espera
+CAND_203,2025-07-17,2025-08-16,SQL,Mid,Referral,Luis,Colocado
+CAND_204,2025-06-25,2025-07-04,React,Senior,LinkedIn,Luis,Colocado
+CAND_205,2025-06-12,2025-07-02,Power BI,Junior,Referral,Luis,Colocado
+CAND_206,2025-03-20,2025-03-29,Azure,Senior,Web Corporativa,Jorge,Colocado
+CAND_207,2025-08-22,,SQL,Senior,Referral,Luis,En espera
+CAND_208,2025-08-03,,Python,Senior,Referral,Ana,En espera
+CAND_209,2025-01-12,2025-02-05,Python,Mid,LinkedIn,María,Colocado
+CAND_210,2025-06-27,,Power BI,Senior,LinkedIn,Jorge,En espera
+CAND_211,2025-08-19,2025-09-21,SQL,Senior,Portal Empleo,Ana,Colocado
+CAND_212,2025-08-17,2025-08-25,Python,Junior,Referral,María,Colocado
+CAND_213,2025-09-21,2025-09-28,Azure,Senior,Web Corporativa,Jorge,Colocado
+CAND_214,2025-09-17,2025-10-15,Java,Mid,Web Corporativa,Jorge,Colocado
+CAND_215,2025-06-22,2025-08-06,C#,Mid,LinkedIn,Ana,Colocado
+CAND_216,2025-02-18,,Java,Mid,Portal Empleo,Ana,En espera
+CAND_217,2025-02-19,2025-03-18,Java,Senior,Web Corporativa,Luis,Colocado
+CAND_218,2025-02-10,,C#,Mid,Portal Empleo,María,En espera
+CAND_219,2025-07-17,,Power BI,Mid,Referral,Luis,En espera
+CAND_220,2025-04-11,,Azure,Junior,Portal Empleo,Luis,En espera
+CAND_221,2025-02-10,2025-03-19,SQL,Senior,LinkedIn,Ana,Colocado
+CAND_222,2025-03-20,,Azure,Junior,Portal Empleo,Luis,En espera
+CAND_223,2025-08-02,,Java,Senior,Portal Empleo,Jorge,En espera
+CAND_224,2025-05-25,,Azure,Senior,Portal Empleo,Ana,En espera
+CAND_225,2025-08-27,2025-09-24,C#,Senior,Web Corporativa,Jorge,Colocado
+CAND_226,2025-05-25,,React,Senior,Web Corporativa,Luis,En espera
+CAND_227,2025-04-26,2025-05-17,Power BI,Senior,Web Corporativa,Ana,Colocado
+CAND_228,2025-09-04,2025-09-27,Power BI,Junior,Referral,Jorge,Colocado
+CAND_229,2025-09-05,,Power BI,Junior,Web Corporativa,Ana,En espera
+CAND_230,2025-01-14,2025-02-13,React,Mid,Portal Empleo,Jorge,Colocado
+CAND_231,2025-02-12,2025-02-18,Java,Junior,Referral,Luis,Colocado
+CAND_232,2025-03-02,,SQL,Mid,Portal Empleo,Jorge,En espera
+CAND_233,2025-08-20,2025-08-30,Power BI,Mid,Portal Empleo,Luis,Colocado
+CAND_234,2025-09-24,,Power BI,Mid,Portal Empleo,Ana,En espera
+CAND_235,2025-02-02,2025-03-05,C#,Senior,Web Corporativa,María,Colocado
+CAND_236,2025-02-27,,React,Senior,LinkedIn,Luis,En espera
+CAND_237,2025-03-10,,Power BI,Senior,Referral,Luis,En espera
+CAND_238,2025-07-06,2025-08-13,Java,Junior,LinkedIn,Jorge,Colocado
+CAND_239,2025-08-02,,Java,Mid,LinkedIn,Ana,En espera
+CAND_240,2025-02-12,2025-03-29,Power BI,Senior,Referral,Luis,Colocado
+CAND_241,2025-01-12,,SQL,Senior,Portal Empleo,Jorge,En espera
+CAND_242,2025-08-21,2025-09-03,Power BI,Senior,Web Corporativa,María,Colocado
+CAND_243,2025-05-07,2025-05-24,Power BI,Mid,Referral,Jorge,Colocado
+CAND_244,2025-09-16,,Power BI,Senior,Portal Empleo,Ana,En espera
+CAND_245,2025-06-28,2025-07-24,Java,Junior,Referral,Jorge,Colocado
+CAND_246,2025-07-24,,Python,Mid,Portal Empleo,Jorge,En espera
+CAND_247,2025-08-12,,SQL,Junior,Web Corporativa,María,En espera
+CAND_248,2025-07-20,2025-08-28,Java,Mid,LinkedIn,María,Colocado
+CAND_249,2025-06-22,,Java,Mid,Web Corporativa,Luis,En espera
+CAND_250,2025-08-12,,Power BI,Senior,Referral,Jorge,En espera
+CAND_251,2025-05-21,2025-05-30,C#,Senior,Web Corporativa,Ana,Colocado
+CAND_252,2025-09-26,2025-10-02,Azure,Senior,Web Corporativa,María,Colocado
+CAND_253,2025-03-03,2025-03-31,Java,Mid,LinkedIn,Luis,Colocado
+CAND_254,2025-08-12,,Python,Junior,Portal Empleo,Ana,En espera
+CAND_255,2025-07-11,,Azure,Junior,LinkedIn,Luis,En espera
+CAND_256,2025-08-17,,React,Junior,Referral,Ana,En espera
+CAND_257,2025-08-07,,C#,Mid,Portal Empleo,María,En espera
+CAND_258,2025-03-28,2025-04-30,Azure,Senior,Web Corporativa,María,Colocado
+CAND_259,2025-06-22,,C#,Junior,Referral,Ana,En espera
+CAND_260,2025-03-23,2025-04-20,React,Junior,LinkedIn,Luis,Colocado
+CAND_261,2025-03-08,,Power BI,Mid,Referral,Jorge,En espera
+CAND_262,2025-09-05,2025-09-14,Java,Mid,Web Corporativa,Jorge,Colocado
+CAND_263,2025-07-27,2025-08-09,Java,Senior,LinkedIn,Jorge,Colocado
+CAND_264,2025-08-22,,Azure,Senior,Portal Empleo,Luis,En espera
+CAND_265,2025-07-17,2025-07-29,React,Junior,Referral,Luis,Colocado
+CAND_266,2025-03-11,2025-04-07,React,Mid,LinkedIn,Ana,Colocado
+CAND_267,2025-04-21,,Azure,Senior,Referral,María,En espera
+CAND_268,2025-09-21,2025-11-02,React,Junior,Portal Empleo,Ana,Colocado
+CAND_269,2025-01-27,2025-02-06,Power BI,Senior,Referral,Luis,Colocado
+CAND_270,2025-07-20,2025-08-25,C#,Senior,Referral,Ana,Colocado
+CAND_271,2025-08-08,,Java,Mid,LinkedIn,María,En espera
+CAND_272,2025-03-15,,Python,Mid,Portal Empleo,Ana,En espera
+CAND_273,2025-03-11,,C#,Mid,Web Corporativa,Luis,En espera
+CAND_274,2025-06-17,2025-07-12,Azure,Mid,LinkedIn,Ana,Colocado
+CAND_275,2025-08-08,2025-08-19,Power BI,Mid,Web Corporativa,Jorge,Colocado
+CAND_276,2025-04-28,2025-05-23,React,Senior,Referral,Luis,Colocado
+CAND_277,2025-03-16,,Python,Mid,Web Corporativa,María,En espera
+CAND_278,2025-02-13,,Azure,Junior,Referral,María,En espera
+CAND_279,2025-01-10,,React,Senior,Web Corporativa,Ana,En espera
+CAND_280,2025-09-01,2025-10-03,Azure,Mid,Referral,Jorge,Colocado
+CAND_281,2025-06-02,,Power BI,Senior,Portal Empleo,Ana,En espera
+CAND_282,2025-09-10,2025-10-09,React,Mid,Referral,María,Colocado
+CAND_283,2025-03-04,,Java,Mid,Referral,Luis,En espera
+CAND_284,2025-04-20,,React,Junior,LinkedIn,María,En espera
+CAND_285,2025-03-23,,SQL,Mid,Web Corporativa,Luis,En espera
+CAND_286,2025-09-05,,React,Mid,Portal Empleo,Jorge,En espera
+CAND_287,2025-05-19,,React,Senior,Web Corporativa,Ana,En espera
+CAND_288,2025-08-27,2025-09-24,Java,Senior,LinkedIn,Jorge,Colocado
+CAND_289,2025-05-26,2025-07-08,Python,Mid,Portal Empleo,María,Colocado
+CAND_290,2025-08-06,,Azure,Senior,Portal Empleo,María,En espera
+CAND_291,2025-02-07,2025-03-12,Java,Mid,Portal Empleo,Jorge,Colocado
+CAND_292,2025-04-14,,SQL,Senior,LinkedIn,Luis,En espera
+CAND_293,2025-09-07,,C#,Mid,Web Corporativa,Ana,En espera
+CAND_294,2025-03-15,,React,Mid,Referral,Jorge,En espera
+CAND_295,2025-04-08,,React,Mid,Portal Empleo,Ana,En espera
+CAND_296,2025-05-23,2025-06-28,Java,Mid,Referral,Ana,Colocado
+CAND_297,2025-05-04,,Python,Mid,Portal Empleo,Ana,En espera
+CAND_298,2025-01-10,2025-02-06,Python,Senior,Referral,Jorge,Colocado
+CAND_299,2025-04-07,,React,Senior,Referral,Luis,En espera
+CAND_300,2025-02-20,2025-03-12,Power BI,Senior,Portal Empleo,Luis,Colocado
+CAND_301,2025-01-04,,Java,Senior,Web Corporativa,María,En espera
+CAND_302,2025-03-01,2025-04-01,C#,Mid,Web Corporativa,Luis,Colocado
+CAND_303,2025-05-11,,C#,Junior,LinkedIn,Luis,En espera
+CAND_304,2025-09-24,2025-10-10,Python,Junior,LinkedIn,Jorge,Colocado
+CAND_305,2025-08-06,,Power BI,Junior,Referral,María,En espera
+CAND_306,2025-06-10,,C#,Senior,Web Corporativa,Luis,En espera
+CAND_307,2025-09-15,,Azure,Junior,Referral,Luis,En espera
+CAND_308,2025-08-21,,C#,Junior,LinkedIn,Ana,En espera
+CAND_309,2025-05-19,2025-06-04,React,Senior,Web Corporativa,Jorge,Colocado
+CAND_310,2025-09-11,2025-10-11,C#,Junior,Portal Empleo,Luis,Colocado
+CAND_311,2025-08-11,2025-08-16,Java,Mid,Portal Empleo,Jorge,Colocado
+CAND_312,2025-05-11,,React,Senior,LinkedIn,Ana,En espera
+CAND_313,2025-06-23,2025-07-01,C#,Junior,Web Corporativa,Ana,Colocado
+CAND_314,2025-03-13,,C#,Junior,Referral,Ana,En espera
+CAND_315,2025-04-08,2025-05-13,Azure,Mid,Referral,Jorge,Colocado
+CAND_316,2025-09-16,2025-10-06,C#,Senior,LinkedIn,Jorge,Colocado
+CAND_317,2025-09-23,,Power BI,Senior,LinkedIn,María,En espera
+CAND_318,2025-09-17,2025-10-28,React,Junior,Portal Empleo,Ana,Colocado
+CAND_319,2025-09-15,2025-10-03,C#,Senior,Web Corporativa,María,Colocado
+CAND_320,2025-09-15,2025-10-19,Azure,Senior,Web Corporativa,Jorge,Colocado
+CAND_321,2025-01-18,,C#,Mid,LinkedIn,Jorge,En espera
+CAND_322,2025-05-27,2025-06-14,React,Junior,LinkedIn,Jorge,Colocado
+CAND_323,2025-06-23,2025-08-01,Power BI,Junior,Web Corporativa,María,Colocado
+CAND_324,2025-05-14,2025-05-27,SQL,Senior,Web Corporativa,Ana,Colocado
+CAND_325,2025-07-15,,Python,Junior,Portal Empleo,Ana,En espera
+CAND_326,2025-02-06,,React,Junior,Portal Empleo,María,En espera
+CAND_327,2025-01-10,,C#,Senior,Web Corporativa,Jorge,En espera
+CAND_328,2025-04-08,,Java,Junior,Referral,Luis,En espera
+CAND_329,2025-02-02,,React,Junior,Portal Empleo,Luis,En espera
+CAND_330,2025-02-04,2025-03-09,React,Senior,LinkedIn,Luis,Colocado
+CAND_331,2025-01-13,,Azure,Senior,Portal Empleo,María,En espera
+CAND_332,2025-03-17,,Azure,Senior,Referral,Ana,En espera
+CAND_333,2025-04-10,2025-05-18,Azure,Mid,Referral,Ana,Colocado
+CAND_334,2025-01-18,2025-03-04,C#,Mid,Web Corporativa,María,Colocado
+CAND_335,2025-06-21,,SQL,Senior,Referral,Jorge,En espera
+CAND_336,2025-07-05,,Python,Junior,Web Corporativa,Luis,En espera
+CAND_337,2025-04-10,2025-05-14,Power BI,Senior,Web Corporativa,Jorge,Colocado
+CAND_338,2025-09-17,2025-10-16,Azure,Mid,Portal Empleo,Ana,Colocado
+CAND_339,2025-02-15,,Power BI,Senior,Portal Empleo,María,En espera
+CAND_340,2025-05-13,2025-05-22,Azure,Senior,Portal Empleo,Jorge,Colocado
+CAND_341,2025-04-28,,Java,Junior,Portal Empleo,Luis,En espera
+CAND_342,2025-02-24,,Azure,Senior,Portal Empleo,Jorge,En espera
+CAND_343,2025-04-18,,SQL,Mid,Web Corporativa,Jorge,En espera
+CAND_344,2025-09-21,,Java,Mid,Referral,Jorge,En espera
+CAND_345,2025-08-04,,SQL,Mid,Portal Empleo,Ana,En espera
+CAND_346,2025-06-14,2025-07-25,SQL,Junior,Portal Empleo,María,Colocado
+CAND_347,2025-05-18,,Java,Junior,Portal Empleo,Ana,En espera
+CAND_348,2025-04-13,2025-05-19,React,Senior,Referral,Ana,Colocado
+CAND_349,2025-08-24,,Python,Junior,Referral,Luis,En espera
+CAND_350,2025-03-24,,Azure,Senior,LinkedIn,María,En espera
+CAND_351,2025-02-27,2025-03-04,Python,Junior,Portal Empleo,María,Colocado
+CAND_352,2025-03-01,2025-04-07,Python,Mid,LinkedIn,Jorge,Colocado
+CAND_353,2025-08-01,2025-09-09,React,Mid,LinkedIn,María,Colocado
+CAND_354,2025-09-24,,React,Mid,LinkedIn,Jorge,En espera
+CAND_355,2025-03-04,2025-04-11,Azure,Junior,Portal Empleo,Ana,Colocado
+CAND_356,2025-06-09,,Power BI,Mid,Web Corporativa,Jorge,En espera
+CAND_357,2025-04-23,2025-05-17,C#,Junior,LinkedIn,María,Colocado
+CAND_358,2025-07-13,,React,Mid,LinkedIn,María,En espera
+CAND_359,2025-03-03,,SQL,Mid,Referral,María,En espera
+CAND_360,2025-09-02,2025-09-20,SQL,Senior,Web Corporativa,Ana,Colocado
+CAND_361,2025-01-03,,React,Senior,LinkedIn,Luis,En espera
+CAND_362,2025-06-01,2025-07-13,Azure,Senior,Web Corporativa,María,Colocado
+CAND_363,2025-05-06,2025-06-16,SQL,Mid,Referral,Jorge,Colocado
+CAND_364,2025-03-26,2025-05-02,C#,Mid,LinkedIn,María,Colocado
+CAND_365,2025-07-08,2025-08-03,React,Senior,Web Corporativa,Ana,Colocado
+CAND_366,2025-01-21,,SQL,Mid,Web Corporativa,Luis,En espera
+CAND_367,2025-06-18,,Python,Junior,Web Corporativa,María,En espera
+CAND_368,2025-05-26,2025-06-04,Power BI,Mid,Portal Empleo,Jorge,Colocado
+CAND_369,2025-03-24,,Java,Mid,LinkedIn,María,En espera
+CAND_370,2025-01-10,,Java,Mid,LinkedIn,Luis,En espera
+CAND_371,2025-02-06,,Python,Senior,Web Corporativa,María,En espera
+CAND_372,2025-01-03,,React,Junior,Referral,Jorge,En espera
+CAND_373,2025-01-10,,Python,Junior,Portal Empleo,Luis,En espera
+CAND_374,2025-07-06,2025-07-28,Java,Mid,Web Corporativa,Luis,Colocado
+CAND_375,2025-02-06,,Java,Mid,Referral,Jorge,En espera
+CAND_376,2025-02-12,,Azure,Senior,Web Corporativa,Luis,En espera
+CAND_377,2025-08-04,2025-08-28,Power BI,Mid,Referral,Jorge,Colocado
+CAND_378,2025-06-15,,Python,Senior,Portal Empleo,Ana,En espera
+CAND_379,2025-06-20,2025-07-25,Java,Junior,Web Corporativa,Ana,Colocado
+CAND_380,2025-05-24,,React,Junior,Referral,Jorge,En espera
+CAND_381,2025-05-27,,Java,Junior,Portal Empleo,Luis,En espera
+CAND_382,2025-09-01,,C#,Junior,Web Corporativa,Ana,En espera
+CAND_383,2025-02-27,,C#,Mid,Portal Empleo,Ana,En espera
+CAND_384,2025-04-09,2025-05-11,SQL,Mid,LinkedIn,Jorge,Colocado
+CAND_385,2025-08-19,,React,Senior,Web Corporativa,María,En espera
+CAND_386,2025-06-23,2025-07-04,SQL,Junior,Referral,Luis,Colocado
+CAND_387,2025-01-19,,SQL,Mid,Web Corporativa,María,En espera
+CAND_388,2025-01-04,,Azure,Senior,Portal Empleo,Jorge,En espera
+CAND_389,2025-06-13,,SQL,Senior,Portal Empleo,Ana,En espera
+CAND_390,2025-01-16,2025-02-08,Python,Junior,LinkedIn,Luis,Colocado
+CAND_391,2025-06-10,,Python,Junior,Web Corporativa,Ana,En espera
+CAND_392,2025-08-04,,C#,Senior,Web Corporativa,Ana,En espera
+CAND_393,2025-02-10,2025-02-22,Power BI,Mid,LinkedIn,Luis,Colocado
+CAND_394,2025-04-17,2025-05-27,Azure,Mid,Web Corporativa,Jorge,Colocado
+CAND_395,2025-04-26,,C#,Junior,Portal Empleo,Jorge,En espera
+CAND_396,2025-07-01,2025-08-03,React,Mid,Web Corporativa,María,Colocado
+CAND_397,2025-04-07,,SQL,Senior,LinkedIn,María,En espera
+CAND_398,2025-09-06,,Java,Junior,Web Corporativa,María,En espera
+CAND_399,2025-05-22,,React,Senior,Referral,Jorge,En espera
+CAND_400,2025-07-19,2025-08-15,Java,Mid,Portal Empleo,Ana,Colocado
+CAND_401,2025-02-22,2025-03-19,Power BI,Junior,Referral,María,Colocado
+CAND_402,2025-03-12,2025-04-18,Python,Mid,Portal Empleo,Jorge,Colocado
+CAND_403,2025-07-06,,C#,Senior,Portal Empleo,Luis,En espera
+CAND_404,2025-08-10,2025-08-26,Java,Mid,LinkedIn,Ana,Colocado
+CAND_405,2025-01-16,2025-02-02,SQL,Mid,Web Corporativa,Jorge,Colocado
+CAND_406,2025-08-14,,Python,Junior,LinkedIn,María,En espera
+CAND_407,2025-04-10,2025-05-02,Azure,Senior,Referral,Luis,Colocado
+CAND_408,2025-08-19,,React,Senior,LinkedIn,María,En espera
+CAND_409,2025-05-25,,React,Junior,Web Corporativa,Luis,En espera
+CAND_410,2025-07-04,2025-07-28,SQL,Junior,Web Corporativa,Ana,Colocado
+CAND_411,2025-06-28,2025-07-31,SQL,Junior,Portal Empleo,Luis,Colocado
+CAND_412,2025-06-28,,Azure,Senior,Portal Empleo,Luis,En espera
+CAND_413,2025-04-26,2025-06-06,Java,Senior,Referral,Luis,Colocado
+CAND_414,2025-06-23,,Java,Senior,Referral,María,En espera
+CAND_415,2025-03-25,,Power BI,Mid,Portal Empleo,Luis,En espera
+CAND_416,2025-04-05,,SQL,Junior,Web Corporativa,Jorge,En espera
+CAND_417,2025-03-19,,C#,Mid,Web Corporativa,Jorge,En espera
+CAND_418,2025-02-21,2025-03-23,React,Senior,Referral,Ana,Colocado
+CAND_419,2025-08-16,,React,Junior,LinkedIn,Jorge,En espera
+CAND_420,2025-06-28,2025-08-06,Python,Junior,Web Corporativa,Luis,Colocado
+CAND_421,2025-08-09,,SQL,Mid,Referral,Luis,En espera
+CAND_422,2025-08-26,,C#,Junior,LinkedIn,María,En espera
+CAND_423,2025-08-01,2025-08-16,Python,Mid,LinkedIn,Jorge,Colocado
+CAND_424,2025-04-23,2025-05-17,Azure,Mid,LinkedIn,Ana,Colocado
+CAND_425,2025-05-03,,C#,Senior,Portal Empleo,María,En espera
+CAND_426,2025-07-21,,C#,Senior,Portal Empleo,Jorge,En espera
+CAND_427,2025-02-23,2025-02-28,Azure,Mid,LinkedIn,Luis,Colocado
+CAND_428,2025-04-17,,Power BI,Junior,Referral,María,En espera
+CAND_429,2025-07-23,2025-08-27,Power BI,Junior,Web Corporativa,María,Colocado
+CAND_430,2025-02-04,,Java,Mid,Portal Empleo,Jorge,En espera
+CAND_431,2025-03-21,2025-03-30,React,Senior,LinkedIn,Luis,Colocado
+CAND_432,2025-08-12,2025-09-26,C#,Junior,Web Corporativa,Jorge,Colocado
+CAND_433,2025-04-03,2025-04-16,SQL,Junior,Web Corporativa,Ana,Colocado
+CAND_434,2025-07-11,2025-07-31,Java,Senior,LinkedIn,Luis,Colocado
+CAND_435,2025-09-20,,SQL,Senior,LinkedIn,Ana,En espera
+CAND_436,2025-04-17,2025-05-17,Java,Senior,LinkedIn,Luis,Colocado
+CAND_437,2025-08-13,2025-09-02,Python,Senior,LinkedIn,María,Colocado
+CAND_438,2025-06-11,2025-07-10,SQL,Senior,Web Corporativa,Ana,Colocado
+CAND_439,2025-09-22,2025-10-27,SQL,Junior,LinkedIn,María,Colocado
+CAND_440,2025-01-09,2025-01-16,Power BI,Mid,Referral,Jorge,Colocado
+CAND_441,2025-07-23,,Power BI,Senior,Portal Empleo,Ana,En espera
+CAND_442,2025-02-10,2025-03-19,Azure,Junior,Referral,Jorge,Colocado
+CAND_443,2025-02-10,,C#,Junior,LinkedIn,Luis,En espera
+CAND_444,2025-02-14,2025-03-20,React,Senior,LinkedIn,Ana,Colocado
+CAND_445,2025-03-04,2025-03-17,C#,Junior,Portal Empleo,Jorge,Colocado
+CAND_446,2025-06-17,,Azure,Mid,Portal Empleo,Ana,En espera
+CAND_447,2025-02-25,2025-03-23,SQL,Mid,Referral,María,Colocado
+CAND_448,2025-05-23,2025-06-28,Python,Senior,Referral,María,Colocado
+CAND_449,2025-08-28,2025-09-25,Azure,Mid,LinkedIn,María,Colocado
+CAND_450,2025-04-24,2025-05-01,SQL,Junior,Portal Empleo,María,Colocado
+CAND_451,2025-08-12,,Azure,Junior,LinkedIn,Jorge,En espera
+CAND_452,2025-04-11,2025-05-12,C#,Mid,Referral,María,Colocado
+CAND_453,2025-06-04,2025-06-20,Azure,Senior,LinkedIn,Jorge,Colocado
+CAND_454,2025-02-15,,SQL,Mid,Referral,María,En espera
+CAND_455,2025-09-15,2025-10-13,Azure,Mid,Referral,Luis,Colocado
+CAND_456,2025-08-12,,SQL,Junior,Portal Empleo,Luis,En espera
+CAND_457,2025-01-14,2025-02-02,React,Mid,LinkedIn,Ana,Colocado
+CAND_458,2025-01-25,,SQL,Senior,Referral,María,En espera
+CAND_459,2025-04-17,2025-05-18,Python,Junior,Portal Empleo,Ana,Colocado
+CAND_460,2025-02-02,2025-03-12,Python,Senior,Referral,Jorge,Colocado
+CAND_461,2025-02-19,2025-03-28,Azure,Senior,Web Corporativa,María,Colocado
+CAND_462,2025-01-14,2025-02-03,Java,Mid,Referral,Jorge,Colocado
+CAND_463,2025-06-11,,Java,Junior,LinkedIn,Luis,En espera
+CAND_464,2025-03-25,2025-04-08,Power BI,Junior,Web Corporativa,Jorge,Colocado
+CAND_465,2025-06-14,2025-07-23,Java,Junior,Web Corporativa,Ana,Colocado
+CAND_466,2025-08-09,2025-08-19,Azure,Senior,Referral,María,Colocado
+CAND_467,2025-04-27,,Azure,Junior,Portal Empleo,Ana,En espera
+CAND_468,2025-07-17,2025-08-10,Java,Junior,LinkedIn,Jorge,Colocado
+CAND_469,2025-08-18,2025-08-29,Python,Junior,Portal Empleo,María,Colocado
+CAND_470,2025-01-02,2025-01-15,Azure,Mid,Referral,María,Colocado
+CAND_471,2025-05-27,2025-06-02,Power BI,Junior,Web Corporativa,Luis,Colocado
+CAND_472,2025-02-28,,Power BI,Junior,Web Corporativa,María,En espera
+CAND_473,2025-03-19,,SQL,Senior,Web Corporativa,Jorge,En espera
+CAND_474,2025-01-13,,Azure,Mid,Portal Empleo,Luis,En espera
+CAND_475,2025-05-09,,Azure,Junior,Portal Empleo,Ana,En espera
+CAND_476,2025-08-14,,Power BI,Junior,Referral,Jorge,En espera
+CAND_477,2025-03-14,2025-04-21,Azure,Senior,LinkedIn,Jorge,Colocado
+CAND_478,2025-06-16,,Java,Senior,Referral,Jorge,En espera
+CAND_479,2025-05-06,2025-05-31,React,Junior,LinkedIn,Ana,Colocado
+CAND_480,2025-01-26,,React,Mid,Portal Empleo,Luis,En espera
+CAND_481,2025-02-08,2025-03-02,React,Senior,LinkedIn,Luis,Colocado
+CAND_482,2025-07-12,2025-07-28,Azure,Senior,Referral,Ana,Colocado
+CAND_483,2025-01-23,,React,Senior,Portal Empleo,Luis,En espera
+CAND_484,2025-08-18,,Azure,Mid,LinkedIn,María,En espera
+CAND_485,2025-01-08,2025-01-14,React,Mid,LinkedIn,Ana,Colocado
+CAND_486,2025-04-26,2025-05-22,C#,Junior,Referral,María,Colocado
+CAND_487,2025-01-05,2025-01-17,SQL,Senior,Referral,María,Colocado
+CAND_488,2025-06-23,,React,Junior,Referral,Ana,En espera
+CAND_489,2025-06-05,2025-07-07,SQL,Senior,Web Corporativa,Ana,Colocado
+CAND_490,2025-03-23,,Azure,Senior,Portal Empleo,Jorge,En espera
+CAND_491,2025-05-24,,Azure,Junior,LinkedIn,Jorge,En espera
+CAND_492,2025-01-06,,SQL,Senior,Portal Empleo,María,En espera
+CAND_493,2025-08-05,,C#,Junior,Portal Empleo,Ana,En espera
+CAND_494,2025-06-06,2025-07-21,C#,Mid,Web Corporativa,María,Colocado
+CAND_495,2025-05-07,2025-05-16,Java,Mid,LinkedIn,María,Colocado
+CAND_496,2025-01-13,,C#,Mid,Portal Empleo,Jorge,En espera
+CAND_497,2025-08-13,,React,Mid,LinkedIn,Jorge,En espera
+CAND_498,2025-04-06,,Power BI,Junior,Referral,María,En espera
+CAND_499,2025-06-09,2025-06-18,Java,Junior,Web Corporativa,Luis,Colocado
+CAND_500,2025-02-18,2025-03-16,React,Senior,Web Corporativa,María,Colocado
+CAND_501,2025-07-21,2025-09-02,Python,Junior,LinkedIn,María,Colocado
+CAND_502,2025-06-07,2025-07-08,C#,Senior,Referral,Ana,Colocado
+CAND_503,2025-05-08,2025-05-16,Python,Senior,Web Corporativa,Luis,Colocado
+CAND_504,2025-01-12,2025-02-13,Power BI,Mid,Web Corporativa,Luis,Colocado
+CAND_505,2025-02-01,2025-02-16,C#,Mid,LinkedIn,Jorge,Colocado
+CAND_506,2025-02-10,,Python,Mid,Referral,María,En espera
+CAND_507,2025-09-13,2025-10-11,Python,Mid,Portal Empleo,Jorge,Colocado
+CAND_508,2025-01-09,,Python,Mid,Portal Empleo,Ana,En espera
+CAND_509,2025-01-05,2025-01-15,C#,Mid,Web Corporativa,Luis,Colocado
+CAND_510,2025-09-02,,SQL,Senior,Web Corporativa,Jorge,En espera
+CAND_511,2025-04-16,,Power BI,Mid,LinkedIn,Luis,En espera
+CAND_512,2025-02-25,,Azure,Junior,Portal Empleo,Luis,En espera
+CAND_513,2025-03-02,,Power BI,Senior,Web Corporativa,Luis,En espera
+CAND_514,2025-03-27,,Java,Senior,LinkedIn,María,En espera
+CAND_515,2025-07-18,,React,Mid,Referral,Jorge,En espera
+CAND_516,2025-01-26,,Power BI,Mid,Portal Empleo,Luis,En espera
+CAND_517,2025-02-04,2025-02-27,SQL,Senior,Referral,Jorge,Colocado
+CAND_518,2025-05-13,,React,Senior,Web Corporativa,María,En espera
+CAND_519,2025-03-09,,Azure,Senior,Web Corporativa,María,En espera
+CAND_520,2025-07-11,2025-07-19,C#,Mid,Referral,Ana,Colocado
+CAND_521,2025-01-11,,Java,Mid,Web Corporativa,María,En espera
+CAND_522,2025-04-05,,C#,Mid,Referral,Ana,En espera
+CAND_523,2025-07-20,2025-08-06,Python,Junior,Web Corporativa,Jorge,Colocado
+CAND_524,2025-09-28,,SQL,Junior,Portal Empleo,María,En espera
+CAND_525,2025-05-23,,Azure,Senior,LinkedIn,Luis,En espera
+CAND_526,2025-04-27,2025-05-05,Azure,Junior,Web Corporativa,María,Colocado
+CAND_527,2025-06-23,2025-07-15,Java,Mid,Web Corporativa,María,Colocado

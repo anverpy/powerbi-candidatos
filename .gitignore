@@ -1,0 +1,16 @@
+# Archivos Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Archivos Power BI
+*.pbix
+
+# Archivos temporales
+*.tmp
+*.temp
+
+# Otros
+PLAN_TRABAJO_POWERBI.md
+Northwind.pbix
