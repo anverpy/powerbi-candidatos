@@ -1,10 +1,13 @@
+.gitignore
+
 # Archivos Python
 __pycache__/
 *.pyc
 *.pyo
 *.egg-info/
 
-*Northwind.pbix
+# Archivos Power BI
+*.pbix
 
 # Archivos temporales
 *.tmp
