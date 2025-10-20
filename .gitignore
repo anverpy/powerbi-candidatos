@@ -4,8 +4,7 @@ __pycache__/
 *.pyo
 *.egg-info/
 
-# Archivos Power BI
-*.pbix
+*Northwind.pbix
 
 # Archivos temporales
 *.tmp
