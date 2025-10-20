@@ -1,13 +1,15 @@
 # 📊 Dashboard de Candidatos - Power BI
 
-> Dashboard interactivo profesional para análisis avanzado de candidatos y optimización de tasas de colocación
+## Dashboard interactivo profesional para análisis avanzado de candidatos y optimización de tasas de colocación
+</br>
+<img src="assets/1.png" alt="Dashboard Preview" width="40%"></br>
+<img src="assets/2.png" alt="Dashboard Preview" width="40%"></br>
+<img src="assets/3.png" alt="Dashboard Preview" width="40%">
 
-![Dashboard Preview](assets/1.png)
-
-## � **[VER DASHBOARD EN VIVO](https://anverpy.github.io/powerbi-candidatos/dashboard.html)** 
+## 🔴 **[VER DEMO DE DASHBOARD EN VIVO](https://anverpy.github.io/powerbi-candidatos/dashboard.html)** 
 *👆 Haz clic para acceder al dashboard interactivo desde cualquier navegador*
 
-## �🎯 Objetivo
+## 🎯 Objetivo
 
 Transformar datos de reclutamiento en insights accionables para mejorar la eficiencia del proceso de colocación de candidatos tecnológicos.
 
@@ -15,7 +17,7 @@ Transformar datos de reclutamiento en insights accionables para mejorar la efici
 
 El dashboard proporciona una visión integral del pipeline de candidatos con métricas clave de rendimiento y análisis predictivo.
 
-## 🔍 Dataset
+## 🔍 [Dataset](https://github.com/anverpy/powerbi-candidatos/blob/main/gen_data.py)
 
 ### Características de los Datos
 - **📊 Total de Registros**: 527 candidatos únicos
