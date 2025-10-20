@@ -2,9 +2,9 @@
 
 ## Dashboard interactivo profesional para análisis avanzado de candidatos y optimización de tasas de colocación
 </br>
-<img src="assets/1.png" alt="Dashboard Preview" width="80%"></br>
-<img src="assets/2.png" alt="Dashboard Preview" width="80%"></br>
-<img src="assets/3.png" alt="Dashboard Preview" width="80%">
+<img src="assets/1.png" alt="Dashboard Preview" width="65%"></br>
+<img src="assets/2.png" alt="Dashboard Preview" width="65%"></br>
+<img src="assets/3.png" alt="Dashboard Preview" width="65%">
 
 ## 🔴 **[VER DEMO DE DASHBOARD EN VIVO](https://anverpy.github.io/powerbi-candidatos/dashboard.html)** 
 *👆 Haz clic para acceder al dashboard interactivo desde cualquier navegador*
@@ -87,7 +87,7 @@ RANKX(
     ,DESC
 )
 ```
-
+Entre otras...
 ## 🏗️ Arquitectura del Dashboard
 
 ### 📋 Estructura de Páginas
