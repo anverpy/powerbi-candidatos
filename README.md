@@ -154,16 +154,6 @@ El dashboard está optimizado para:
 - [ ] **Alertas automáticas**: Notificaciones de anomalías
 - [ ] **Benchmarking**: Comparación con estándares industria
 
-## 🤝 Contribución
-
-¿Mejoras o sugerencias? ¡Son bienvenidas!
-
-1. Fork del proyecto
-2. Crea tu feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit tus cambios (`git commit -m 'Add AmazingFeature'`)
-4. Push al branch (`git push origin feature/AmazingFeature`)
-5. Abre un Pull Request
-
 ## 📄 Licencia
 
 Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para detalles.
@@ -174,3 +164,4 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) par
 
 
 *Desarrollado con ❤️ para optimizar procesos de reclutamiento tecnológico*
+
