@@ -1,6 +1,6 @@
 # 📊 Dashboard de Candidatos - Power BI
 
-## Dashboard interactivo profesional para análisis avanzado de candidatos y optimización de tasas de colocación
+## Dashboard para análisis avanzado de candidatos y optimización de tasas de colocación
 </br>
 <img src="assets/1.png" alt="Dashboard Preview" width="65%"></br>
 <img src="assets/2.png" alt="Dashboard Preview" width="65%"></br>
@@ -171,5 +171,6 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) par
 ---
 
 **⭐ Si este proyecto te fue útil, no olvides darle una estrella en GitHub**
+
 
 *Desarrollado con ❤️ para optimizar procesos de reclutamiento tecnológico*
